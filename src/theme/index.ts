@@ -3,24 +3,6 @@
 import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
-    components: {
-    Hero: {
-      baseStyle: {
-        wrapper: {
-          minH: '100vh',
-          display: 'flex',
-          alignItems: 'center',
-          // ...
-        },
-        heading: {
-          fontWeight: 700,
-          letterSpacing: '-0.025em',
-          // ...
-        }
-      }
-    }
-  } ,
-
     colors: {
         offWhite: '#F5F2ED' ,
         beige: '#E8DFD0' ,
@@ -30,7 +12,7 @@ const theme = extendTheme({
     },
 
     fonts: {
-        heading: `'Playfair Display'. serif` ,
+        heading: `'Playfair Display', serif` ,
         body: `'DM Sans', sans-serif` ,
         mono: `'DM mono', monospace`,
     },
