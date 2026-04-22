@@ -80,7 +80,7 @@ const Hero = () => {
             top: 0, left: 0,
             width: '100%', height: '100%',
             objectFit: 'cover',
-            opacity: 0.15,
+            opacity: 0.23,
           }}
         >
           <source src="./videos/hero-bg.mp4" type="video/mp4" />
