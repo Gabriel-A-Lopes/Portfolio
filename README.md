@@ -1,0 +1,127 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=32&duration=3000&pause=1000&color=1B2A4A&center=true&vCenter=true&width=600&lines=Gabriel+Lopes+%E2%80%94+Portfolio;Full+Stack+Developer;React+%C2%B7+TypeScript+%C2%B7+Node.js" alt="Typing SVG" />
+
+<br/>
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white&labelColor=20232A)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Chakra UI](https://img.shields.io/badge/Chakra_UI-2-319795?style=flat-square&logo=chakraui&logoColor=white)](https://chakra-ui.com/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
+
+<br/>
+
+> *A minimal, intentional portfolio — built to demonstrate real-world React skills for the international market.*
+
+<br/>
+
+[**View Live →**](https://gabriel-a-lopes.vercel.app) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/gabriel-amaro-lopes-541a9519b/) &nbsp;·&nbsp; [**GitHub**](https://github.com/Gabriel-A-Lopes)
+
+</div>
+
+---
+
+## Overview
+
+This is my personal developer portfolio, built from scratch with **React + TypeScript + Vite**. The goal was to go beyond templates — every section was hand-crafted with attention to design, performance, and code quality.
+
+The color scheme follows a strict **60-30-10 rule**:
+- **60%** — Off-white `#F5F2ED` (dominant background)
+- **30%** — Beige `#E8DFD0` (secondary surfaces)
+- **10%** — Navy `#1B2A4A` (CTAs, headings, accents)
+
+---
+
+## Sections
+
+| Section | Description |
+|---|---|
+| **Hero** | Full-height intro with animated background, floating code particles, and smooth scroll CTA |
+| **Tech Stack** | Cards for each technology with proficiency bars and real project context pulled from GitHub |
+| **About** | Professional bio with project chips linking directly to GitHub repos |
+| **Footer** | Social links, live project link, résumé button, and availability status |
+
+---
+
+## Tech Stack
+
+```ts
+const stack = {
+  framework:   "React 18 + TypeScript",
+  bundler:     "Vite",
+  ui:          "Chakra UI v2",
+  styling:     "Chakra theme tokens + component style objects",
+  fonts:       ["Playfair Display", "DM Sans", "DM Mono"],
+  deploy:      "Vercel",
+}
+```
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/       # Reusable UI pieces (cards, bars, chips)
+├── sections/         # Page sections (Hero, Stack, About, Footer)
+│   └── Hero.tsx
+├── theme/            # Chakra UI global theme (colors, fonts, styles)
+│   └── index.ts
+├── App.tsx           # Root component with ChakraProvider
+└── main.tsx          # Entry point
+```
+
+---
+
+## Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Gabriel-A-Lopes/portfolio.git
+
+# Navigate into the project
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## Featured Projects
+
+Projects referenced in the Tech Stack section:
+
+- [**Synapse Connect**](https://github.com/AlanRB7162/Synapse-Connect) — Educational platform with React + TypeScript frontend, Express.js backend, MySQL, JWT and OAuth 2.0 (Google & GitHub login)
+- [**Kehtorta**](https://github.com/Gabriel-A-Lopes/Kehtorta-LandingPage) — Production landing page for a family business, deployed on Vercel · [Live](https://kehtorta-landing-page.vercel.app)
+- [**Coração Pet**](https://github.com/Gabriel-A-Lopes/Coracao_Pet) — Collaborative Java desktop application built with a team of five
+
+---
+
+## Design Decisions
+
+**Why Chakra UI?** Component-level styling with access to theme tokens means zero style duplication. Colors like `navy` or `offWhite` are defined once and used everywhere.
+
+**Why Vite?** Near-instant HMR and optimised production builds — the standard for modern React projects.
+
+**Why TypeScript?** Type safety catches bugs at compile time, not runtime. It also signals to international teams that the codebase is maintainable.
+
+**Why this color palette?** Minimalist palettes communicate professionalism and focus. The 60-30-10 rule is a design principle borrowed from interior design — it prevents visual noise.
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=14&duration=4000&pause=500&color=9AA3B8&center=true&vCenter=true&width=500&lines=Built+with+purpose.+Designed+with+intention.;Open+to+remote+opportunities+worldwide." alt="Footer typing" />
+
+<br/>
+
+**Gabriel Amaro Lopes** · São Paulo, Brazil · [gabriel.amaro@outlook.com](mailto:gabriel.amaro@outlook.com)
+
+</div>
